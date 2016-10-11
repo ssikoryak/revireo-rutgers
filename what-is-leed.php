@@ -1,60 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rutgers.com</title>
-  <link media="all" rel="stylesheet" href="css/main.css">
-  <link href='https://fonts.googleapis.com/css?family=Raleway:400,100italic,100,200,200italic,300,300italic,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic' rel='stylesheet' type='text/css'>
-  <script type="text/javascript">window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
-  <script type="text/javascript" src="js/jquery.main.js" defer></script>
-</head>
-<body>
-  <div id="wrapper">
-    <header id="header">
-      <div class="container">
-        <div class="nav-opener-bar">
-          <a href="#" class="nav-opener"><span>Opener</span></a>
-        </div>
-        <div class="drop">
-          <div class="logo">
-            <a href="#"><img src="images/logo-rutgers.jpg" width="90" height="85" alt="RUTGERS FUTURE BY DEVCO.ORG"></a>
-          </div>
-          <nav id="nav">
-            <ul>
-              <li>
-                <a href="#" class="icon-pencil"></a>
-                <strong class="text">The Initiative</strong>
-              </li>
-              <li class="active">
-                <a href="#" class="icon-home"></a>
-                <strong class="text"> What is LEED?</strong>
-              </li>
-              <li>
-                <a href="#" class="icon-home-help"></a>
-                <strong class="text">Why LEED?</strong>
-              </li>
-              <li>
-                <a href="#" class="icon-empire"></a>
-                <strong class="text">Apartments</strong>
-              </li>
-              <li>
-                <a href="#" class="icon-building"></a>
-                <strong class="text">R Building</strong>
-              </li>
-              <li>
-                <a href="#" class="icon-building-small"></a>
-                <strong class="text">Honors College</strong>
-              </li>
-              <li>
-                <a href="#" class="icon-apple"></a>
-                <strong class="text">Learn More</strong>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
+<?php include 'includes/config.php'; ?>
+
+
+
+<?php include 'includes/header.php'; ?>
+
     <main id="content">
       <div class="container">
         <div class="js-masonry-block">
@@ -90,7 +39,7 @@
                   </video>
                 </div>
                 <div class="text-holder bottom-content">
-                  <h1>LEVELS OF CERTIFICATION</h1>
+                  <h1>Learn More</h1>
                 </div>
                 <a href="#" class="volume-button icon-volume"></a>
               </div>
@@ -341,73 +290,5 @@
         </div>
       </div>
     </main>
-    <footer id="footer">
-      <div class="container">
-        <div class="footer-t">
-          <ul class="footer-title">
-            <li><a href="#"><strong>RUTGERS FUTURE</strong></a></li>
-            <li>BY <a href="#">DEVCO</a></li>
-          </ul>
-          <div class="three-cols">
-            <div class="col-l">
-              <nav class="footer-nav">
-                <strong class="title">Menu</strong>
-                <ul>
-                  <li><a href="#">The Project</a></li>
-                  <li><a href="#">What is LEED?</a></li>
-                  <li><a href="#">Why LEED?</a></li>
-                  <li><a href="#">Building 1</a></li>
-                  <li><a href="#">Building 2</a></li>
-                  <li><a href="#">Building 3</a></li>
-                  <li><a href="#">Learn</a></li>
-                </ul>
-              </nav>
-            </div>
-            <div class="col-m">
-              <strong class="title">Reach Out</strong>
-              <div class="num">
-                <span class="tel"><a href="tel:0123456789">(XXX)-XXX-XXXX</a></span>
-                <span class="fax">(XXX)-XXX-XXXX</span>
-              </div>
-              <address>
-                <span>
-                  XXX XXXX XXX XXXXX XXXXX <br>
-                  XXXX XXXXXX XX XXXXXX XXXXXX
-                </span>
-                <span>
-                  XXX XXXXXXXX XXXXX <br>
-                  XXXXXXXXXXX XX XXXXXX
-                </span>
-              </address>
-            </div>
-            <div class="col-r">
-              <form action="#" class="submit-form">
-                <div class="textarea-wrap">
-                  <label for="note" class="title">Send a Note</label>
-                  <textarea cols="30" rows="10" id="note"></textarea>
-                </div>
-                <input type="submit" value="Send">
-              </form>
-            </div>
-          </div>
-        </div>
-        <div class="footer-b">
-          <div class="social-block">
-            <strong class="title">Follow Us</strong>
-            <ul class="social-networks">
-              <li><a href="#" class="icon-facebook"></a></li>
-              <li><a href="#" class="icon-linked-in"></a></li>
-              <li><a href="#" class="icon-twitter"></a></li>
-              <li><a href="#" class="icon-google-plus"></a></li>
-              <li><a href="#" class="icon-instagram"></a></li>
-              <li><a href="#" class="icon-youtube"></a></li>
-              <li><a href="#" class="icon-pinterest"></a></li>
-            </ul>
-          </div>
-          <span class="copyright">&copy; 2016 <a href="#">Rutgers University</a>. All Rights Reserved.</span>
-        </div>
-      </div>
-    </footer>
-  </div>
-</body>
-</html>
+
+<?php include 'includes/footer.php'; ?>
