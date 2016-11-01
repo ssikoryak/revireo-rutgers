@@ -1264,6 +1264,10 @@ input[type="submit"] {
 	background: #df0000;
 }
 
+.grid-item .item-holder .block-wrap.granite {
+	background: #262626;
+}
+
 .grid-item .item-holder .block-wrap.dark-red {
 	background: #4b0d0d;
 }
@@ -1685,6 +1689,9 @@ input[type="submit"] {
 	line-height: 29px;
 	text-transform: uppercase;
 	padding: 18px;
+}
+.grid-item .nav-text .medium-text {
+	font-size: 26px;
 }
 
 .grid-item .logo-wrap .logo-holder,
@@ -2815,4 +2822,3 @@ input[type="submit"] {
 		line-height: 22px;
 	}
 }
-

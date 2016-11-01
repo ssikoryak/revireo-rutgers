@@ -23,10 +23,10 @@
           <nav id="nav">
             <ul>
               <li>
-                <a href="#" class="icon-pencil"></a>
+                <a href="index.php" class="icon-pencil"></a>
                 <strong class="text">The Initiative</strong>
               </li>
-              <li class="active">
+              <li>
                 <a href="what-is-leed.php" class="icon-home"></a>
                 <strong class="text"> What is LEED?</strong>
               </li>
@@ -34,20 +34,20 @@
                 <a href="why-is-leed.php" class="icon-home-help"></a>
                 <strong class="text">Why LEED?</strong>
               </li>
-              <li>
-                <a href="#" class="icon-empire"></a>
-                <strong class="text">Apartments</strong>
-              </li>
-              <li>
-                <a href="#" class="icon-building"></a>
-                <strong class="text">R Building</strong>
-              </li>
-              <li>
-                <a href="#" class="icon-building-small"></a>
+              <li class="active">
+                <a href="honors-college.php" class="icon-empire"></a>
                 <strong class="text">Honors College</strong>
               </li>
               <li>
-                <a href="#" class="icon-apple"></a>
+                <a href="green-buildings.php" class="icon-building"></a>
+                <strong class="text">R Building</strong>
+              </li>
+              <li>
+                <a href="apartments.php" class="icon-building-small"></a>
+                <strong class="text">Apartments</strong>
+              </li>
+              <li>
+                <a href="media-gallery.php" class="icon-apple"></a>
                 <strong class="text">Learn More</strong>
               </li>
             </ul>
