@@ -1,4 +1,4 @@
-<?php $thisPage="What is Leed?"; ?>
+<?php $thisPage="What is LEED?"; ?>
 
 <?php include 'includes/config.php'; ?>
 <?php include 'includes/header.php'; ?>

@@ -1,13 +1,6 @@
-<?php 
-  include 'includes/config.php';
-  $curpage = '';
-?>
+<?php $thisPage="The Initiative"; ?>
 
-
-
-
-
-
+<?php include 'includes/config.php'; ?>
 <?php include 'includes/header.php'; ?>
 
 <main id="content">
