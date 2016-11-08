@@ -1,4 +1,4 @@
-<?php $thisPage="R Building"; ?>
+<?php $thisPage="Rutgers Academic Building"; ?>
 
 <?php include 'includes/config.php'; ?>
 <?php include 'includes/header.php'; ?>

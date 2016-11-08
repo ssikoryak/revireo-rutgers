@@ -30,25 +30,29 @@
                 <a href="what-is-leed.php" class="icon-home"></a>
                 <strong class="text"> What is LEED?</strong>
               </li>
-              <li <?php if ($thisPage=="Why is LEED?") echo "class=\"active\""; ?>>
-                <a href="why-is-leed.php" class="icon-home-help"></a>
+              <li <?php if ($thisPage=="Why LEED?") echo "class=\"active\""; ?>>
+                <a href="why-leed.php" class="icon-home-help"></a>
                 <strong class="text">Why LEED?</strong>
               </li>
-              <li <?php if ($thisPage=="Apartments") echo "class=\"active\""; ?>>
-                <a href="apartments.php" class="icon-empire"></a>
-                <strong class="text">Apartments</strong>
-              </li>
-              <li <?php if ($thisPage=="R Building") echo "class=\"active\""; ?>>
-                <a href="r-building.php" class="icon-building"></a>
-                <strong class="text">R Building</strong>
+              <li <?php if ($thisPage=="Green Building") echo "class=\"active\""; ?>>
+                <a href="green-building.php" class="icon-green"></a>
+                <strong class="text">Green Building</strong>
               </li>
               <li <?php if ($thisPage=="Honors College") echo "class=\"active\""; ?>>
-                <a href="honors-college.php" class="icon-building-small"></a>
+                <a href="honors-college.php" class="icon-empire"></a>
                 <strong class="text">Honors College</strong>
               </li>
+              <li <?php if ($thisPage=="Rutgers Academic Building") echo "class=\"active\""; ?>>
+                <a href="academic-building.php" class="icon-building"></a>
+                <strong class="text">Academic Building</strong>
+              </li>
+              <li <?php if ($thisPage=="Apartments") echo "class=\"active\""; ?>>
+                <a href="apartments.php" class="icon-two-tier"></a>
+                <strong class="text">College Ave. Apartments</strong>
+              </li>
               <li <?php if ($thisPage=="Media Gallery") echo "class=\"active\""; ?>>
-                <a href="media-gallery.php" class="icon-apple"></a>
-                <strong class="text">Learn More</strong>
+                <a href="media-gallery.php" class="icon-media"></a>
+                <strong class="text">Media Gallery</strong>
               </li>
             </ul>
           </nav>

@@ -684,6 +684,18 @@ input[type="submit"] {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-media:before {
+	content: "\e917";
+}
+
+.icon-two-tier:before {
+	content: "\e916";
+}
+
+.icon-green:before {
+	content: "\e915";
+}
+
 .icon-apple:before {
 	content: "\e900";
 }

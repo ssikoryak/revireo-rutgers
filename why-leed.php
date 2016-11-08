@@ -1,4 +1,4 @@
-<?php $thisPage="Why is LEED?"; ?>
+<?php $thisPage="Why LEED?"; ?>
 
 <?php include 'includes/config.php'; ?>
 <?php include "includes/header.php"; ?>
